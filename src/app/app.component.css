@@ -1,0 +1,59 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    flex-direction: column;
+
+    margin-top: 15px;
+    margin-bottom: 52px;
+}
+
+.titulo .image {
+    display: flex;
+    align-items: center;
+
+    margin-top: 25px;
+    filter: grayscale(100%);
+
+}
+
+.titulo .image:hover {
+    transition: filter 0.5s;
+    filter: grayscale(0%);
+    
+}
+
+.titulo h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center !important;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.titulo h3 {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    align-self: center !important;
+    font-size: 24px;
+    
+}
+
+.card-lista {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+@media (min-width: 768px) {
+    .head .text {
+        font-size: 45px;
+    }
+}
